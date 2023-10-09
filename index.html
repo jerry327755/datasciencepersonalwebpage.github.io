@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Optional JavaScript; jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Essential Resets */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Body & Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8eef1;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+p.lead {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 4rem;
+    background-color: #fff;
+    border: 1px solid #d1d8dd;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    margin-top: 3rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+    max-width: 20%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #d1d8dd;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.list-unstyled li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.list-unstyled li:before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+}
+
+.btn {
+    border: 1px solid #007BFF;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.7px;
+    background-color: rgba(0, 123, 255, 0.1); /* Slight background color */
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    background-image: linear-gradient(45deg, #007BFF, #0056b3); /* Gradient for added complexity */
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #0056b3;
+    background-image: linear-gradient(45deg, #0056b3, #004090);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 57, 163, 0.2);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1>Welcome to my Data Visualization Page Page</h1>
+        <img src="me...jpeg" alt="My Picture" class="img-fluid rounded-circle my-3">
+        <p class="lead">
+           Welcome to my Data space. Here, I am rising senior student at University of North Carolina at Charlotte studying Computer Science with a Data Science concentration.
+
+Data is the new gold, and is fascinating the things that can achieve with all of its powerful implementations. On this site, you can find some of the projects I have worked on, feel free to navigate and discover some of the insights I have found in this portfolio.
+        </p>
+        <ul class="list-unstyled">
+            <li>Enthusiastic about Data Science</li>
+            <li>Enthusiastic about Data Minings</li>
+            <li>Enjoy learning about Data Visualizations</li>
+        </ul>
+        <a href="introduction.html" class="btn btn-primary mt-3">Learn more about my skills and experiences</a>
+    </div>
+</body>
+</html>
+
+
